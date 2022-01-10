@@ -3,13 +3,17 @@
 ## Fullstack Web Development Bootcamp: let's break it down
 - Developer
     - Question: What does it mean to be a developer?
-    - To make something
+    - Someone that makes software
+    - Someone who thinks of code logically
+    - Uses tool to make something
     - Making things work properly
-    - Improve something
-    -
+    - Uses a language that a computer understands to do a task that a human needs
+    - Designs, creates and tests software
     - A person who writes applications in computer code.
     - This is you!  Right now!  You belong here.
     - Attributes
+        - knowledgeable
+        - research
         - Problem solving
         - Attention to detail
         - Creative
@@ -23,12 +27,14 @@
         - designer
         - UI/UX specialist
         - business analyst
+        - entrepreneur
 - Web - Writing for the browser.
     - Question: Which devices run browsers?
         - Laptops/desktops
         - Phones
-          -Tablets
+        - Tablets
         - Screen readers
+        - smart devices
         - Cars
         - APIs
         - More
@@ -92,10 +98,10 @@
 - Slack
     - best way to reach instructors
     - each of you has your own channel
-    - cohort-web-35
+    - cohort-web-37
     - current-community
 - Calendar: https://calendar.google.com/calendar?cid=Ym9vdGNhbXBjb2RlcnNAZ21haWwuY29t
-- GitHub: https://github.com/dd-fullstack-cohort-35
+- GitHub: https://github.com/dd-fullstack-cohort-37
     - All relevant example and other repos posted there
     - Lecture Notes and assignments found in the lecture-notes repo
 - Note taking tools
