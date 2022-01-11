@@ -43,3 +43,16 @@ if (cardSuit === 'hearts'){
 
 console.log(secondStack)
 
+// an array is a list of comma seperated values
+
+let students = ['Maria', 'Kaitlin', 'Tim']
+console.log(students)
+console.log(students[2])
+let ages = [10, 15, 25]
+
+
+
+
+
+
+
