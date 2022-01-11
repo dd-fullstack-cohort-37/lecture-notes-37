@@ -8,8 +8,11 @@
     - CSS
     - Git
     - GitHub
+    - Gitbash
     - ssh/putty
     - command line
+    - linux server
+    - chocolatey
 
 ## What We Teach
 - Modified MERN Stack
