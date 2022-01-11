@@ -55,7 +55,7 @@
 ### Use Cases & Interaction Flow
 User han5olo has posted Star Wars in a Star Trek forum. Admin Dora is monitoring abuse reports at work and is inundated with complaints about the excessive Star Wars posts from han5olo. Knowing what an inferior franchise Star Wars is, Dora is determined to rid the world wide web of these posts! \  
 ![:engage:](https://emoji.slack-edge.com/T053NFY3R/engage/60a35fd8f81e3b12.jpg) \
-precondition: Dora is logged into her administrative level account
+precondition: Dora is logged into her administrative level account 
 
 postcondition: han5olo is banned from making further posts.
 
