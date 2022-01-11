@@ -1,6 +1,7 @@
 # Algorithms, conditionals, and loops
 
 ## Algorithms
+
 - **algorithm** - a step-by-step process used to solve a problem
 - **pseudocode** - an informal language that outlines an algorithm, not meant to be run on a computer
     - Examples
@@ -15,6 +16,7 @@
   ```
 
 ## Conditionals
+
 - `if` blocks evaluate *boolean expressions*, which are `true` or `false`
     - if the statement evaluates to true, then the block is executed
     - `||` means 'or', `&&` means 'and'
@@ -39,23 +41,23 @@
 - Example:
   ```javascript
   // Get the current hour of the day.
-  let t = date('H');
-
+  let date = new Date()
+  let time = date.getHours();
   // Output a customized message.
-  if (t < 10) {
-    console.log('Have a good morning!');
-  } elseif (t < 20) {
-    console.log('Have a good day!');
+  if (time < 10) {
+     console.log('Have a good morning!');
+  } else if (time < 20) {
+     console.log('Have a good day!');
   } else {
-    console.log('Have a good night!');
+     console.log('Have a good night!');
   }
   ```
 
-- Class Exercise: Build a pseudocode algorithm that outputs the cost for a ticket for admission to the
-  Albuquerque Museum: https://www.cabq.gov/culturalservices/albuquerque-museum/plan-your-visit/admission-ticketing
-
+- Class Exercise: Build a pseudocode algorithm that outputs the cost for a ticket for admission to the Albuquerque
+  Museum: https://www.cabq.gov/culturalservices/albuquerque-museum/plan-your-visit/admission-ticketing
 
 ## Loops
+
 - **loops** - blocks of code that are (possibly) executed multiple times
 - `while` - keep doing this as long as the condition is true
 - `do...while` - do this at least once, then keep doing this as long as the condition is true
@@ -83,6 +85,9 @@
     i++;
   } while(i < 16);
   ```
+
 ## Class exercises in pseudocode
-- Write an algorithm that runs from 1 to 20. When the number is even, output 'fizz'. When the number is divisible by 5, output 'buzz'. If it is neither even nor divisible by five, output 'foo'.
+
+- Write an algorithm that runs from 1 to 20. When the number is even, output 'fizz'. When the number is divisible by 5,
+  output 'buzz'. If it is neither even nor divisible by five, output 'foo'.
 - Given two numbers, write an algorithm that outputs the sum of all odd numbers between those numbers, inclusive.
