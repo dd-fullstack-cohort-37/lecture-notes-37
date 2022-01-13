@@ -52,3 +52,9 @@ console.log(arrayOfStudentObjects[1].name)
 
 // how this could be used later in the bootcamp
 arrayOfStudentObjects.forEach(student=>console.log(student.name + ' loves ' + student.favoriteActivity))
+
+// let's make it super confusing
+arrayOfStudentObjects[0].gradedProjects = [{projectName: 'PWP', grade: 91}, {projectName: 'Capstone', grade: 87}]
+arrayOfStudentObjects[1].gradedProjects = [{projectName: 'PWP', grade: 95}, {projectName: 'Capstone', grade: 84}]
+console.log(arrayOfStudentObjects)
+console.log(arrayOfStudentObjects[0].gradedProjects[1].grade)
