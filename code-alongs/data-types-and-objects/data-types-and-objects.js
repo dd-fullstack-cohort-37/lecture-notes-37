@@ -41,3 +41,11 @@ student2.age = student2.age + 1
 
 console.log(student.name + ' is ' + student.age)
 console.log(student2.name + ' is ' + student2.age)
+
+let arrayOfStudentObjects = [student, student2]
+// console log the array of student objects
+console.log(arrayOfStudentObjects)
+// console.log the first student object in the array
+console.log(arrayOfStudentObjects[0])
+// console log the name of the second student in the array of student objects
+console.log(arrayOfStudentObjects[1].name)
