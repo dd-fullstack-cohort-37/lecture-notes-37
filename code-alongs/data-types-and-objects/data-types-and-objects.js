@@ -49,3 +49,6 @@ console.log(arrayOfStudentObjects)
 console.log(arrayOfStudentObjects[0])
 // console log the name of the second student in the array of student objects
 console.log(arrayOfStudentObjects[1].name)
+
+// how this could be used later in the bootcamp
+arrayOfStudentObjects.forEach(student=>console.log(student.name + ' loves ' + student.favoriteActivity))
