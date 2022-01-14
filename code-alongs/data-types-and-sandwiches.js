@@ -11,6 +11,8 @@ const jelly = 'strawberry'
 let removeCrust = true
 // NUMBER data type
 let numberOfSandwiches = 2
+//
+let eat = function(){console.log('yum yum')}
 
 let pBAndJSandwichStrawberry = {
  bread,
@@ -38,18 +40,24 @@ let emmanuelSandwich = {
 
 let cindy = {
  name: 'Cindy',
- pBAndJSandwichPreference: cindySandwich
+ pBAndJSandwichPreference: cindySandwich,
+ consume: function(){console.log('yum yum')}
 }
 
 let maria = {
  name: 'Maria',
- pBAndJSandwichPreference: pBAndJSandwichStrawberry
+ pBAndJSandwichPreference: pBAndJSandwichStrawberry,
+ consume: eat
 }
 
 let emmanuel = {
  name: 'Emmanuel',
- pBAndJSandwichPreference: emmanuelSandwich
+ pBAndJSandwichPreference: emmanuelSandwich,
+ consume: eat
 }
+
+console.log(maria.name)
+maria.consume()
 
 // ARRAY data type (This is an array of objects)
 let sandwichEaters = [cindy, maria, emmanuel]
