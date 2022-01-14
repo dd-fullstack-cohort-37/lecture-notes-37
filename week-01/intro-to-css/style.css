@@ -1,0 +1,83 @@
+/* This is a CSS Comment */
+body {
+    font-family: sans-serif;
+}
+
+p {
+    color: blue;
+    font-style: italic;
+}
+
+.green {
+    color: green
+}
+
+#last-paragraph {
+    font-weight: bold;
+}
+
+.coolBox {
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    border:solid dodgerblue 5px;
+    margin: 2em 4em;
+}
+
+.coolBox article > p {
+    color: gold;
+    font-size: 2em;
+}
+
+a[href="https://www.google.com"] {
+    font-size: 2em;
+    color: purple;
+}
+
+
+
+.section {
+    background-color: gray;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flexbox {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    /*flex styles*/
+    flex-grow: 1;
+
+    /*cosmetic styles*/
+    padding: 5px;
+    margin: 1em;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.flex-item:nth-child(1) {
+    flex-grow: 2;
+}
+
+.css-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/*.blockButton {*/
+/*    display: block;*/
+/*}*/
+
