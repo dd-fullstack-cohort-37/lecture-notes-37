@@ -119,7 +119,7 @@ for (let currentValue = 0; currentValue < 10; currentValue = currentValue + 1) {
 ### Unique JavaScript Syntax Quirks
 - JavaScript does very strange things with functions that most other languages don't allow you to do.
     - This is much of what makes it appealing, and also what makes other people dislike it strongly
-- **closure** - A function that creates and returns another function instead of a variable
+- **closure** - A function that either takes a function as a parameter or creates and returns another function instead of a variable
     - Allows us to build boilerplate functions that can be used to build more specific functions that can be very useful for shorthand.
     - Examples and Further reading:
         - https://bootcamp-coders.cnm.edu/class-materials/javascript/closures/
