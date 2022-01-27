@@ -9,6 +9,7 @@ Lecture notes, assignments, and other resources for Fullstack Cohort 37. This re
 All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding
+* [PWP Milestone 3 Mid Development Check in](https://ddc-web-curriculum.cnm.edu/pwp-milestone-three/)
 * [JS Events in the DOM Challenge Due Tuesday 2-1-22](https://classroom.github.com/a/Z0AGeQ7W)
 
 ### Complete
