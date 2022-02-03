@@ -59,6 +59,27 @@ function shuffleLetters(){
 	document.getElementById('shuffle').innerText = newParagraph
 }
 
+// fetch('https://jsonplaceholder.typicode.com/posts/1')
+// 	.then((response) => response.json())
+// 	.then((json) => console.log(json));
+
+async function getJson (){
+	let response = await fetch('https://jsonplaceholder.typicode.com/posts')
+	let json = await response.json()
+	console.log(json)
+	json.forEach(post => {
+		let hThree = document.createElement('h3')
+		hThree.innerText = post.title
+		let p = document.createElement('p')
+		p.innerText = post.body
+		let section = document.getElementById('fetchPosts')
+		section.appendChild(hThree)
+		section.appendChild(p)
+	})
+}
+
+getJson()
+console.log('pizza')
 
 
 
