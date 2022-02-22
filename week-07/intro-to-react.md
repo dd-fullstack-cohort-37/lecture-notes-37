@@ -1,6 +1,6 @@
 # React Intro
 ## What is React
-*  Declarative Frontend-UI Library created by Facebook.
+* Declarative Frontend-UI Library created by Facebook.
 * Created to make front end development more straightforward and composable.
 * Uses small chunks of Html CSS and javascript called components.
 * Components are made possible by JSX or Javascript XML (HTML is a subset of XML)
@@ -17,7 +17,7 @@
     * Style attribute must be a double `{{}}` and styles follow a key pair syntax like objects
         * *Inline styling is okay in react but better to use global style sheet or an individual style sheet for each component.*
     * Possible to create custom attributes called props that can be used to pass parameters into components
-    * Alot more self-closing tags
+    * A lot more self-closing tags
 ### Props
 * Props or properties is a way of passing parameters into Components.
 * Accomplished by defining custom attributes in tags and accessing them in the component with the prop parameter
